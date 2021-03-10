@@ -4,28 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meme Generator</title>
+    <title>Custom Meme Generator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="text/javascript" href="meme-generator.js">
 </head>
 <body>
-    <header>
-        <h1>Free Custom Memes</h1>
-        <p>Complete the form below to create a meme!</p>
-    </header>
-    <form action="#">
-        <div>Image URL: 
-            <input placeholder="Paste image URL here" type="text" class="form-input" id="meme-image">
-        </div>
-        <div>Top Text: 
-            <input placeholder="Top text goes here" type="text" class="form-input" id="meme-top">
-        </div>
-        <div>Bottom Text: 
-            <input placeholder="Bottom text goes here" type="text" class="form-input" id="meme-bottom">
-        </div>
-        <div id="form-submit">
-            <input type="submit">
-        </div>
-    </form>
+    <div>
+        <header>
+            <div>
+                <h1>Create a Meme!</h1>
+                <h3>Please fill out the form below (:</h3>
+            </div>
+        </header>
+        <section>
+            <form action="#" autocomplete="off" id="meme-data">
+                <div>
+                    <label for="image-url">Image URL:
+                        <div>
+                            <input type="url" placeholder="Paste/type your image URL here" id="meme-image">
+                        </div>
+                    </label>
+                </div>
+                <div>
+                    <label for="top-text">Top Text:
+                        <div>
+                            <input type="text" placeholder="Type your meme's top text here(Optional)" id="top-text">
+                        </div>
+                    </label>
+                </div>
+                <div>
+                    <label for="bottom-text">Bottom Text:
+                        <div>
+                            <input type="text" placeholder="Type your meme's bottom text here(Optional)" id="bottom-text">
+                        </div>
+                    </label>
+                </div>
+                <div>
+                    <div>
+                        <input type="submit">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+    <section class="created-memes">
+        <ul class="memes"></ul>
+    </section>
+    <script src="meme-generator.js"></script>
 </body>
 </html>
