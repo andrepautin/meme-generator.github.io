@@ -18,36 +18,37 @@
         </header>
         <section>
             <form action="#" autocomplete="off" id="meme-data">
-                <div>
-                    <label for="image-url">Image URL:
+                <div class="form-input">
+                    <label for="image-url">Image URL
                         <div>
-                            <input type="url" placeholder="Paste/type your image URL here" id="meme-image">
+                            <input class="input-box" type="url" placeholder="Paste/type your image URL here" id="meme-image">
                         </div>
                     </label>
                 </div>
-                <div>
-                    <label for="top-text">Top Text:
+                <div class="form-input">
+                    <label for="top-text">Top Text
                         <div>
-                            <input type="text" placeholder="Type your meme's top text here(Optional)" id="top-text">
+                            <input class="input-box" type="text" placeholder="Type your meme's top text here(Optional)" id="top-text">
                         </div>
                     </label>
                 </div>
-                <div>
-                    <label for="bottom-text">Bottom Text:
+                <div class="form-input">
+                    <label for="bottom-text">Bottom Text
                         <div>
-                            <input type="text" placeholder="Type your meme's bottom text here(Optional)" id="bottom-text">
+                            <input class="input-box" type="text" placeholder="Type your meme's bottom text here(Optional)" id="bottom-text">
                         </div>
                     </label>
                 </div>
-                <div>
+                <div class="form-submit">
                     <div>
-                        <input type="submit">
+                        <input class="create" type="submit" value="Create Meme">
                     </div>
                 </div>
             </form>
         </section>
     </div>
     <section class="created-memes">
+        <h1>Created Memes</h1>
         <div class="memes"></div>
     </section>
 </body>

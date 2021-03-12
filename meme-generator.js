@@ -21,7 +21,7 @@ memeData.addEventListener("submit", function(e) {
 
     let removeMeme = document.createElement("div");
     removeMeme.classList.add("delete-mark");
-    removeMeme.innerText = "X";
+    removeMeme.innerText = "CLICK TO DELETE";
     removeMeme.style.color = "red";
 
     memeList.appendChild(memeItem);
