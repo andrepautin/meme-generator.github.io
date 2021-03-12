@@ -1,15 +1,22 @@
-.created-memes {
+.memes {
     width: 100%;
     list-style: none;
 }
 
+img {
+    width: 500px;
+}
+
 .meme {
+    display: inline-block;
     position: relative;
     text-align: center;
+    width: 500px;
 }
 
 .text {
     position: relative;
+    width: 500px;
 }
 
 .top {
@@ -20,4 +27,12 @@
 .bottom {
     position: absolute;
     bottom: 0;
+}
+
+.delete-mark {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    text-align: center;
+    width: 500px;
 }
