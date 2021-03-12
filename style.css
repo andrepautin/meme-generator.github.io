@@ -1,0 +1,23 @@
+.created-memes {
+    width: 100%;
+    list-style: none;
+}
+
+.meme {
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}

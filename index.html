@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Meme Generator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="meme-generator.js" async></script>
 </head>
 <body>
     <div>
@@ -16,7 +17,7 @@
             </div>
         </header>
         <section>
-            <form action="#" autocomplete="off" id="meme-data">
+            <form action="#" autocomplete="off" id="meme-data" onsubmit="generateMeme()">
                 <div>
                     <label for="image-url">Image URL:
                         <div>
@@ -47,8 +48,12 @@
         </section>
     </div>
     <section class="created-memes">
-        <ul class="memes"></ul>
+        <div class="memes"></div>
     </section>
-    <script src="meme-generator.js"></script>
+    <!-- <div class="mymeme">
+        top text
+        <img width="200px" height="200px" src="https://s.yimg.com/ny/api/res/1.2/EMRDW2HTkbvH4pCVStITcQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTYxOS4yNjc2MDU2MzM4MDI5/https://s.yimg.com/uu/api/res/1.2/Lu3TsGJE4SFMfR1JJjpk2Q--~B/aD05MTY7dz0xNDIwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/coindesk_75/c86a9d3d4b171dbe8f75e28731dfdd6b">
+        bottom text
+    </div> -->
 </body>
 </html>
